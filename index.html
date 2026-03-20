@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Adrian Jose (Dean Prado) - Dev Junior | Full Stack | Cyber Segurança | IA. Portfólio profissional de desenvolvimento web e tecnologia." />
+    <meta name="theme-color" content="#0a0a0f" />
+    <title>Dean Prado · Dev Junior</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ── NAV ──────────────────────────────────────── -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a class="logo" href="#">DP<span class="logo-dot">.</span></a>
+            <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Skills</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#objetivo">Objetivo</a></li>
+                <li><a href="#contato" class="nav-cta">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ── HERO ─────────────────────────────────────── -->
+    <section id="hero">
+        <div class="hero-video-wrap">
+            <video id="hero-video" src="meuvideoanimado.mp4" autoplay muted loop playsinline></video>
+            <div class="hero-overlay"></div>
+        </div>
+
+        <!-- Floating orbs -->
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+
+        <div class="hero-content">
+            <div class="hero-badge reveal-up" style="--delay:0s">
+                <span class="badge-dot"></span> Disponível para projetos
+            </div>
+            <h1 class="hero-name reveal-up" style="--delay:.1s">
+                <span class="name-accent">Dean Prado</span>
+            </h1>
+            <p class="hero-sub reveal-up" style="--delay:.2s">
+                Dev Junior &nbsp;·&nbsp; Full Stack &nbsp;·&nbsp; Cyber Segurança &nbsp;·&nbsp; IA
+            </p>
+            <p class="hero-tagline reveal-up" style="--delay:.3s">
+                Código limpo, mente afiada — construindo o futuro uma linha de cada vez.
+            </p>
+            <div class="hero-ctas reveal-up" style="--delay:.4s">
+                <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+                <a href="#contato" class="btn btn-ghost">Entrar em Contato</a>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>scroll</span>
+        </div>
+    </section>
+
+    <!-- ── SOBRE ─────────────────────────────────────── -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <div class="section-label reveal-up">Sobre mim</div>
+            <div class="sobre-grid">
+                <!-- Foto Pessoal -->
+                <div class="sobre-photo reveal-up">
+                    <div class="photo-frame">
+                        <img src="minhafoto.jpeg" alt="Dean Prado" class="minha-foto" />
+                        <div class="photo-glow"></div>
+                        <div class="photo-border"></div>
+                    </div>
+                </div>
+
+                <div class="sobre-text reveal-up" style="--delay:.1s">
+                    <h2 class="section-title">Quem sou eu?</h2>
+                    <p>
+                        Tenho <strong>20 anos</strong>, sou moto-boy e estudante apaixonado por tecnologia desde cedo.
+                        Enquanto o mundo dorme, eu codifico — porque acredito que o esforço de hoje é o produto de
+                        amanhã.
+                    </p>
+                    <p>
+                        Além do código, o <strong>skate</strong> é minha válvula de escape: me ensinou que cair faz
+                        parte do processo e que persistência é tudo.
+                    </p>
+                    <p>
+                        Meu foco atual é dominar o desenvolvimento de <strong>apps instaláveis</strong> — estilo
+                        aplicativo real para Android, iPhone e Desktop — e me tornar um dev completo que entrega valor,
+                        não só funcionalidade.
+                    </p>
+                    <div class="sobre-tags">
+                        <span class="tag">🛵 Moto-boy</span>
+                        <span class="tag">🛹 Skate</span>
+                        <span class="tag">🤖 IA</span>
+                        <span class="tag">🔐 Cyber Sec</span>
+                        <span class="tag">🌐 Full Stack</span>
+                    </div>
+                </div>
+                <div class="sobre-stats reveal-up" style="--delay:.15s">
+                    <div class="stat-card">
+                        <div class="stat-num" data-target="20">0</div>
+                        <div class="stat-label">Anos de vida</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num" data-target="6">0</div>
+                        <div class="stat-label">Tecnologias em estudo</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num" data-target="3">0</div>
+                        <div class="stat-label">Idiomas em estudo</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num" data-target="100">0</div>
+                        <div class="stat-label">% Determinado</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Studying strip -->
+            <div class="studying-strip reveal-up" style="--delay:.2s">
+                <span class="strip-label">Estudando atualmente →</span>
+                <div class="strip-items">
+                    <span>Full Stack</span>
+                    <span>Cyber Segurança</span>
+                    <span>Python</span>
+                    <span>C#</span>
+                    <span>C++</span>
+                    <span>Node.js</span>
+                    <span>Inteligência Artificial</span>
+                    <span>Línguas Estrangeiras</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── HABILIDADES ───────────────────────────────── -->
+    <section id="habilidades" class="section section-dark">
+        <div class="container">
+            <div class="section-label reveal-up">Habilidades</div>
+            <h2 class="section-title reveal-up">Stack Técnico</h2>
+            <p class="section-desc reveal-up">Tecnologias que faço parte do meu arsenal — em constante expansão.</p>
+
+            <div class="skills-grid">
+                <!-- Front-end -->
+                <div class="skill-category reveal-up">
+                    <div class="skill-cat-header">
+                        <div class="skill-cat-icon">⚡</div>
+                        <h3>Front-end</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item"><span>HTML & CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>React</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="50"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>Responsive Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Back-end -->
+                <div class="skill-category reveal-up" style="--delay:.1s">
+                    <div class="skill-cat-header">
+                        <div class="skill-cat-icon">🔧</div>
+                        <h3>Back-end</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item"><span>Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>C#</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="45"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>REST APIs</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="55"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Linguagens -->
+                <div class="skill-category reveal-up" style="--delay:.2s">
+                    <div class="skill-cat-header">
+                        <div class="skill-cat-icon">🖥️</div>
+                        <h3>Linguagens</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item"><span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="40"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>C#</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="45"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Segurança -->
+                <div class="skill-category reveal-up" style="--delay:.3s">
+                    <div class="skill-cat-header">
+                        <div class="skill-cat-icon">🔐</div>
+                        <h3>Segurança</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item"><span>Cyber Segurança</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="50"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>Redes & Protocolos</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="45"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>Linux / CLI</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="55"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>OWASP Basics</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="40"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IA -->
+                <div class="skill-category reveal-up" style="--delay:.4s">
+                    <div class="skill-cat-header">
+                        <div class="skill-cat-icon">🤖</div>
+                        <h3>Inteligência Artificial</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item"><span>Machine Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="35"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>LLMs & Prompting</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>Python (ML libs)</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="45"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>Automação com IA</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="55"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Apps & Mobile -->
+                <div class="skill-category reveal-up" style="--delay:.5s">
+                    <div class="skill-cat-header">
+                        <div class="skill-cat-icon">📱</div>
+                        <h3>Apps & Mobile</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item"><span>PWA</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>Electron / Desktop</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="40"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>Android (em aprendizado)</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="30"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span>Git & GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── PROJETOS ───────────────────────────────────── -->
+    <section id="projetos" class="section">
+        <div class="container">
+            <div class="section-label reveal-up">Projetos</div>
+            <h2 class="section-title reveal-up">Trabalhos em Destaque</h2>
+            <p class="section-desc reveal-up">Cada projeto é uma oportunidade de aprender mais e construir melhor.</p>
+
+            <div class="projects-grid">
+                <article class="project-card reveal-up">
+                    <div class="project-glow"></div>
+                    <div class="project-inner">
+                        <div class="project-header">
+                            <div class="project-icon">🤖</div>
+                            <div class="project-badges">
+                                <span class="project-badge">IA</span>
+                                <span class="project-badge">Node.js</span>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Bot de Automação com IA</h3>
+                        <p class="project-desc">Bot inteligente com comandos interativos, reconhecimento de intenção via
+                            IA e execução de ações automatizadas. Desenvolvido com Node.js, e integração de LLMs.</p>
+                        <div class="project-tech">
+                            <span>Node.js</span><span>LLMs</span><span>Automação</span>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://wa.me/5564993105021" target="_blank" rel="noopener"
+                                class="btn btn-sm btn-outline">💬 Falar com o Bot</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal-up" style="--delay:.1s">
+                    <div class="project-glow"></div>
+                    <div class="project-inner">
+                        <div class="project-header">
+                            <div class="project-icon">🔐</div>
+                            <div class="project-badges">
+                                <span class="project-badge">Security</span>
+                                <span class="project-badge">Node.js</span>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Sistema de Autenticação Seguro</h3>
+                        <p class="project-desc">Sistema completo de autenticação com JWT, hashing seguro, proteção
+                            contra ataques comuns e painel administrativo. Foco total em segurança e boas práticas.</p>
+                        <div class="project-tech">
+                            <span>Node.js</span><span>JWT</span><span>MongoDB</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal-up" style="--delay:.2s">
+                    <div class="project-glow"></div>
+                    <div class="project-inner">
+                        <div class="project-header">
+                            <div class="project-icon">📱</div>
+                            <div class="project-badges">
+                                <span class="project-badge">PWA</span>
+                                <span class="project-badge">JS</span>
+                            </div>
+                        </div>
+                        <h3 class="project-title">App de Gestão Pessoal</h3>
+                        <p class="project-desc">PWA instalável para organização de tarefas, metas e rotina diária.
+                            Funciona offline, com interface fluida e notificações push nativas.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span><span>PWA</span><span>IndexedDB</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal-up" style="--delay:.3s">
+                    <div class="project-glow"></div>
+                    <div class="project-inner">
+                        <div class="project-header">
+                            <div class="project-icon">🌐</div>
+                            <div class="project-badges">
+                                <span class="project-badge">Full Stack</span>
+                                <span class="project-badge">React</span>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Dashboard Full Stack</h3>
+                        <p class="project-desc">Painel administrativo com React no front, Node.js no back e banco de
+                            dados integrado. Autenticação, gráficos em tempo real e design moderno.</p>
+                        <div class="project-tech">
+                            <span>React</span><span>Node.js</span><span>Charts</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── OBJETIVO PROFISSIONAL ─────────────────────── -->
+    <section id="objetivo" class="section section-dark">
+        <div class="container">
+            <div class="section-label reveal-up">Objetivo profissional</div>
+            <div class="objetivo-wrap">
+                <div class="objetivo-left reveal-up">
+                    <h2 class="section-title">Para onde vou?</h2>
+                    <p class="objetivo-text">
+                        Sou júnior no título, mas penso como pleno. Cada dia é uma oportunidade de absorver mais,
+                        construir melhor e evoluir mais rápido.
+                    </p>
+                    <p class="objetivo-text">
+                        Meu objetivo é claro: dominar o desenvolvimento de produtos completos — do back ao front, do web
+                        ao mobile — com foco em <strong>qualidade, segurança e experiência do usuário</strong>.
+                    </p>
+                    <p class="objetivo-text">
+                        Não corro atrás de emprego, corro atrás de <strong>evolução constante</strong>. O emprego é
+                        consequência.
+                    </p>
+                </div>
+                <div class="objetivo-right reveal-up" style="--delay:.15s">
+                    <div class="objetivo-cards">
+                        <div class="obj-card">
+                            <div class="obj-icon">🎯</div>
+                            <h4>Foco Total</h4>
+                            <p>Aprender continuamente e aplicar no mundo real, sem desculpas.</p>
+                        </div>
+                        <div class="obj-card">
+                            <div class="obj-icon">🚀</div>
+                            <h4>Crescimento Rápido</h4>
+                            <p>Não espero anos para estar pronto. Estou me preparando agora.</p>
+                        </div>
+                        <div class="obj-card">
+                            <div class="obj-icon">🏗️</div>
+                            <h4>Produtos Reais</h4>
+                            <p>Criar apps que as pessoas realmente usam e amam.</p>
+                        </div>
+                        <div class="obj-card">
+                            <div class="obj-icon">🌍</div>
+                            <h4>Impacto Global</h4>
+                            <p>Tecnologia sem fronteiras, disponível para todos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── CONTATO ───────────────────────────────────── -->
+    <section id="contato" class="section">
+        <div class="container">
+            <div class="section-label reveal-up">Contato</div>
+            <h2 class="section-title reveal-up">Vamos conversar?</h2>
+            <p class="section-desc reveal-up">Estou aberto a projetos, parcerias e oportunidades. Fala comigo — respondo
+                rápido.</p>
+
+            <div class="contact-wrap">
+                <div class="contact-info reveal-up">
+                    <a href="mailto:suportedeanprado@email.com" class="contact-card" id="contact-email">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <div class="contact-label">Email</div>
+                            <div class="contact-value">suportedeanprado@email.com</div>
+                        </div>
+                        <span class="contact-arrow">→</span>
+                    </a>
+                    <a href="https://github.com/deanprado" target="_blank" rel="noopener" class="contact-card"
+                        id="contact-github">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="contact-label">GitHub</div>
+                            <div class="contact-value">github.com/deanprado</div>
+                        </div>
+                        <span class="contact-arrow">→</span>
+                    </a>
+                    <a href="https://wa.me/5543998634247" target="_blank" rel="noopener" class="contact-card"
+                        id="contact-whatsapp">
+                        <div class="contact-icon">💬</div>
+                        <div>
+                            <div class="contact-label">WhatsApp</div>
+                            <div class="contact-value">Fala no direct</div>
+                        </div>
+                        <span class="contact-arrow">→</span>
+                    </a>
+                </div>
+
+                <form class="contact-form reveal-up" style="--delay:.15s" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Seu nome" autocomplete="name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" autocomplete="email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Em que posso te ajudar?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+                        <span class="btn-text">Enviar Mensagem</span>
+                        <span class="btn-icon">→</span>
+                    </button>
+                    <p class="contact-note" id="contact-note">No GitHub Pages, este formulário abre seu aplicativo de email com a mensagem pronta.</p>
+                    <p class="contact-status" id="contact-status" aria-live="polite"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ────────────────────────────────────── -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-logo">DP<span>.</span></div>
+                <p class="footer-text">Feito com <span class="heart">❤</span> e muito café por Dean Prado</p>
+                <p class="footer-copy">© 2026 Dean Prado</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
